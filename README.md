@@ -1,6 +1,6 @@
 # NANO 706 · Assignment 2, Part 1: Wine Classification
 
-**Student:** Bukola Akindipe
+**Student:** Bukola Akindipe  
 **Notebook:** [`Nano706_Homework2_part1_Bukola.ipynb`](Nano706_Homework2_part1_Bukola.ipynb)
 
 ## Task
