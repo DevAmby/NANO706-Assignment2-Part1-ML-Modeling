@@ -68,3 +68,7 @@ The predicted classes follow the same pattern as the raw data, which shows the m
 ## Conclusion
 
 All three models classify the wines very well. Logistic Regression matched the SVM at 0.98. The Decision Tree came in slightly lower at 0.96, most likely because it overfits the training data a little. With only 54 test samples, one misclassified wine changes accuracy by about 2%, so the models perform very similarly.
+
+## How to Run
+
+Open the notebook in Google Colab or Jupyter and run all cells. The Wine dataset loads directly from scikit-learn.
