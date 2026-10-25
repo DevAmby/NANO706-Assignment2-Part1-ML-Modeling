@@ -1,7 +1,4 @@
-# NANO 706 · Assignment 2, Part 1: Wine Classification
-
-**Student:** Bukola Akindipe  
-**Notebook:** [`Nano706_Homework2_part1_Bukola.ipynb`](Nano706_Homework2_part1_Bukola.ipynb)
+# Assignment 2, Part 1: Wine Classification
 
 ## Task
 
@@ -54,21 +51,3 @@ accuracy_log = accuracy_score(y_test, y_pred_log)
 ![Logistic regression predictions](figures/13_wine_logistic_regression_predictions.png)
 
 The predicted classes follow the same pattern as the raw data, which shows the model picked up real chemical differences between the classes.
-
-## 5. Comparison
-
-![Model comparison](figures/14_wine_model_comparison.png)
-
-| Model | Accuracy |
-|---|---|
-| SVM (class example) | 0.98 |
-| Decision Tree | 0.96 |
-| Logistic Regression | 0.98 |
-
-## Conclusion
-
-All three models classify the wines very well. Logistic Regression matched the SVM at 0.98. The Decision Tree came in slightly lower at 0.96, most likely because it overfits the training data a little. With only 54 test samples, one misclassified wine changes accuracy by about 2%, so the models perform very similarly.
-
-## How to Run
-
-Open the notebook in Google Colab or Jupyter and run all cells. The Wine dataset loads directly from scikit-learn.
